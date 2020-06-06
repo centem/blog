@@ -4,6 +4,7 @@ html {
 body {
     min-height: 100%;
 }
+
 .container {
     height: 100vh;
     display: grid;
@@ -19,7 +20,8 @@ body {
     grid-area: header;
     /* background-color: darkgrey; */
     padding: 5px;
-    color: cornflowerblue
+    color: cornflowerblue;
+    margin-bottom: 4px;
 }
 .sidebar {
     grid-area: sidebar;
@@ -34,16 +36,19 @@ body {
 }
 .footer {
     grid-area: footer;
-    background-color: darkgrey;
+    background-color: rgb(77, 74, 74);
+    padding: 20px;
+    color: white;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 8px 8px rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 90%;
     height: 50%;
     border-radius: 5px;
   }
   #card-text {
+      padding: 2px;
       margin-left: 5px;
       margin-bottom: 2px;
       margin-top: 5px;
@@ -51,6 +56,7 @@ body {
   }
   #card-image {
     width: 100%;
+    bottom: 0px;
     /* height: 80%;
     bottom: 0px; */
     /* background-image: url("../images/christmas.jpeg");
