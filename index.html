@@ -3,26 +3,54 @@
     <meta charset="utf-8">
     <title>Blog Homepage</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
     <body>
         <div class="container">
             <header class="header">
-              <h1>Blog Homepage</h1>
-              <hr>
+              <span class="logo">Milton Centeno's Blog</span>
+              <nav>
+                <ul class="nav_links">
+                  <li><a href="#">Map</a></li>
+                  <li><a href="#">Links</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+              </nav>
             </header>
             <aside class="sidebar">
+              <h2><b>Latest Blog Post</b></h2> 
               <div class="card">
-                <div id="card-text">
-                  <h4><b>Latest Blog Post</b></h4> 
-                  <p><a href="post.html">Christmas Markets</a></p> 
+                <img class="card-image" src="images/christmas.jpeg" alt="christmas-markets" width="100%">
+                <div class="card-text">
+                  <p><a href="post.html">German Christmas Markets</a></p> 
                 </div>
-                <img id="card-image" src="images/christmas.jpeg">
               </div>
             </aside>
             <article class="main">
               <h1>An American Living in Germany</h1>
-              <p>This is a blog site about my experiecnce of living in Germany. I'm an american citizen and have been living in Germany for the last 5 year. Here I blog about the experiecnce I've had doing all sorts of things. I blog about the public transportaion, driving, grocery shopping, renting, and my favorite vacation spots.</p>
+              <p>This is a blog site about my experiecnce as an american living in Germany. I'm an american citizen and have been living in Germany for the last 5 year. Here I blog about the experiecnce I've had doing all sorts of things. I blog about the public transportaion, driving, grocery shopping, appartment renting, and my favorite vacation spots.</p>
+              <div class=".inner-container">
+                <div class="card"><img class="card-image" src="images/pubic-transit.jpeg" alt="public-transit" width="100%">
+                  <div class="card-text">
+                    <p><a href="post.html">Public Transit</a></p> 
+                  </div></div>
+                <div class="card"><img class="card-image" src="images/rothenburg.jpeg" alt="christmas-markets" width="100%">
+                  <div class="card-text">
+                    <p><a href="post.html">Rothenburg ob der Tauber</a></p> 
+                  </div></div>
+                <div class="card"><img class="card-image" src="images/black-forest.jpeg" alt="public-transit" width="100%">
+                  <div class="card-text">
+                    <p><a href="post.html">The Black Forest</a></p> 
+                  </div></div>
+              </div>
             </article>
-            <footer class="footer">My footer</footer>
+            <footer class="footer">
+              <h3>Author: Milton Centeno</h3>
+              <ul>
+                <li><i class="fab fa-facebook-square fa-3x"></i></li>
+                <li><i class="fab fa-twitter-square fa-3x"></i></li>
+                <li><i class="fab fa-youtube-square fa-3x"></i></li>
+              </ul>
+            </footer>
           </div>
     </body>
 </html>
