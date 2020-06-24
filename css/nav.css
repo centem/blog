@@ -1,0 +1,23 @@
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: cyan;
+}
+
+.logo {
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: cyan;
+}
