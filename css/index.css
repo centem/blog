@@ -47,25 +47,20 @@
     padding: 20px;
     color: white;
     height: 100%;
+    margin-bottom: 0px;
+    bottom: 0px;
 }
 .footer ul li {
     display: inline;
 }
 
-.inner-container {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+@media (max-width: 768px) {
+    .card-image {
+        display: none;
+    }
+    
 }
 
-.inner-container div {
-    margin: 5px;
-}
-
-.inner-container .card{
-    margin-top: 20px;
-}
 
 
 
