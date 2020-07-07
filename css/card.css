@@ -16,8 +16,12 @@
   }
 
   .card-text a {
-      color: crimson;
-      font-size: 1.2em;
+    background-color: #242524;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-bottom: 2px;
+    text-decoration: none;
   }
 
   .card-image {

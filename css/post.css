@@ -35,20 +35,46 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
-section {
-    margin: 5px;
+.para-section {
+    margin: 15px;
     text-align: justify;
 }
 
-section img {
+.img-section figure img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+}
+
+.img-section figure figcaption {
+    text-align: center;
+}
+
+.para-section .italic-span {
+    font-style: italic;
+} 
+
+.para-section .underline-span {
+    text-decoration: underline;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
 }
 
 .footer {
