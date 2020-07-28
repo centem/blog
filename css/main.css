@@ -18,9 +18,3 @@ li, a {
     color: #edf0f1;
     text-decoration: none;
 }
-
-@media (max-width: 768px) {
-    li, a {
-        font-size: 10px;
-    }
-}

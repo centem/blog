@@ -7,7 +7,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 10% 80% 10%;
+    grid-template-rows: 10% auto 10%;
     grid-template-areas:
     "header header header header"
     "sidebar main main main"
@@ -40,6 +40,8 @@
     padding-left: 50px;
     padding-right: 50px;
     margin-top: 20px;
+    height: 100%;
+    margin-bottom: 75px;
 }
 
 button {
@@ -56,16 +58,33 @@ button {
 }
 
 .footer {
-    grid-area: footer;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #242524;
-    padding: 20px;
     color: white;
-    height: 100%;
-    margin-bottom: 0px;
-    bottom: 0px;
+    grid-area: footer;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
 }
+
 .footer ul li {
     display: inline;
+}
+
+.para-section {
+    margin: 50px;
+    text-align: justify;
+}
+
+#author-info {
+    margin-right: 200px;
+}
+
+.para-section span {
+    font-weight: bold;
 }
 
 @media (max-width: 768px) {
